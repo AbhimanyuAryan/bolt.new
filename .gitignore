@@ -28,3 +28,7 @@ dist-ssr
 *.vars
 .wrangler
 _worker.bundle
+
+
+# baml
+baml_client

@@ -2,6 +2,12 @@ import { MODIFICATIONS_TAG_NAME, WORK_DIR } from '~/utils/constants';
 import { allowedHTMLElements } from '~/utils/markdown';
 import { stripIndents } from '~/utils/stripIndent';
 
+// import { b } from '~/baml_client';
+// async function call_model(goal: string) {
+//   const project =  b.stream.GenerateProject(goal);
+//   project.toStreamable();
+// }
+
 export const getSystemPrompt = (cwd: string = WORK_DIR) => `
 You are Bolt, an expert AI assistant and exceptional senior software developer with vast knowledge across multiple programming languages, frameworks, and best practices.
 
